@@ -1,6 +1,0 @@
-
-    [paste.server_runner]
-    tornado=galaxyservers.servers.tornado_runner:paste_server
-    gunicorn=galaxyservers.servers.gunicorn_runner:paste_server
-    fapws3=galaxyservers.servers.fapws3_runner:paste_server
-    
