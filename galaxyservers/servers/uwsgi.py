@@ -1,0 +1,1 @@
+raise "no official pluging is available for uwsgi, run 'uwsgi --paste config:/opt/galaxy/universe_wsgi.ini --socket :3031 -H /opt/galaxy' instead"

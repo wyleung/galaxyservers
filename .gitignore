@@ -1,0 +1,4 @@
+dist/*
+*.tar.gz
+*.gz
+*.exe
