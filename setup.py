@@ -65,7 +65,7 @@ setup(
     version = __version__,
 
     description = 'Runners for Galaxyproject',
-    # long_description = long_description,
+    long_description = long_description,
     author = 'Wai Yi Leung',
     author_email = 'w.y.leung@e-sensei.nl',
     license = 'MIT',
