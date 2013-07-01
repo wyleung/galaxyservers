@@ -58,7 +58,7 @@ Open **universe_wsgi.ini** and search for the following section:
 You can replace the **egg:Paste#http** by any server supported by this package:
 
     [server:main]
-    use = egg:galaxyserver#gunicorn
+    use = egg:galaxyservers#gunicorn
 	# you can replace gunicorn by: fapws3/tornado
 
 ##### one exception
