@@ -8,7 +8,7 @@ import os
 from setuptools import setup, find_packages, Command
 import sys
 
-version_info = (0, 1, 0)
+version_info = (0, 1, 1)
 __version__ = ".".join([str(v) for v in version_info])
 
 CLASSIFIERS = [
@@ -32,8 +32,8 @@ CLASSIFIERS = [
     'Topic :: Internet :: WWW/HTTP :: Dynamic Content']
 
 # read long description
-with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
-    long_description = f.read()
+# with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
+#     long_description = f.read()
 
 # read dev requirements
 # fname = os.path.join(os.path.dirname(__file__), 'requirements_dev.txt')
@@ -65,7 +65,7 @@ setup(
     version = __version__,
 
     description = 'Runners for Galaxyproject',
-    long_description = long_description,
+    # long_description = long_description,
     author = 'Wai Yi Leung',
     author_email = 'w.y.leung@e-sensei.nl',
     license = 'MIT',
